@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+.logo{
+    color: #e85a33;
+    font-style: italic;
+    /* font-weight: 300; */
+    font-size: x-large;
+    font-family: sans-serif;
+    padding: 1rem;
+
+}
+body{
+    background-color: #eadbc8;
+}
+
+.login{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
