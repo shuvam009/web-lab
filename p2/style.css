@@ -14,6 +14,7 @@ body{
 }
 .bb{
    display: flex;
+   align-items: center;
   /* font-family: sans-serif; */
 }
 
@@ -32,23 +33,30 @@ body{
 
 .right{
     display: flex;
-     align-items:center;
+ 
      max-width: 10px;
-    padding-right: 50%;
+     margin-right:5px;
+    /* padding-right: 50%; */
     
 }
 
+.divider{
+    align-items: center;
+}
 .left{
-    max-width: 300px;
-    margin-right: 40%;
-    /* padding-left: 20%; */
+    max-width: 5500px;
+    max-height: 2500px;
+    margin-left: 300px;
+    margin-top: 300px;
+ margin-right: 600px;
+ /* background-color: #DB4437; */
 }
 .LR{
     display: flex;
 
 }
 nav{
-
+    
     display:flex;
 
     justify-content:space-between;
