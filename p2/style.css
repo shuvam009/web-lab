@@ -5,13 +5,15 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body {
-  background: #7e5bff;
-  display: flex;
+body{
+ background: #7e5bff;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 2rem;
+}
+.bb{
+   display: flex;
   /* font-family: sans-serif; */
 }
 
@@ -20,7 +22,7 @@ body {
   border-radius: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 1200px;
+  max-width: 2500px;
   max-height: 2500px;
   overflow: hidden;
   /* position: relative; */
@@ -31,7 +33,7 @@ body {
 .right{
     display: flex;
      align-items:center;
-     /* max-width: 10px; */
+     max-width: 10px;
 }
 .left{
     max-width: 200px;
